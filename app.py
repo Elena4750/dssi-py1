@@ -18,7 +18,9 @@ using machine learning and python Detect if someone has Breast cancer
 
 
 #Get the data
-df = pd.read_csv('/Users/mojito/Desktop/dssi_streamlit/bc.csv')
+url = 'https://raw.githubusercontent.com/Elena4750/dssi-py1/edit/main/bc.csv'
+df = pd.read_csv(url)
+
 #Set a subheader
 st.subheader('Data Information:')
 #Show the data as a table
