@@ -18,7 +18,7 @@ using machine learning and python Detect if someone has Breast cancer
 
 
 #Get the data
-url = 'https://raw.githubusercontent.com/Elena4750/dssi-py1/edit/main/bc.csv'
+url = 'https://github.com/Elena4750/dssi-py1/edit/main/bc.csv'
 df = pd.read_csv(url)
 
 #Set a subheader
